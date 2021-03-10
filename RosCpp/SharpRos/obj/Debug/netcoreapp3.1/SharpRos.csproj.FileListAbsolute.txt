@@ -1,0 +1,12 @@
+C:\dev\VisualStudioROS\RosCpp\SharpRos\bin\Debug\netcoreapp3.1\SharpRos.exe
+C:\dev\VisualStudioROS\RosCpp\SharpRos\bin\Debug\netcoreapp3.1\SharpRos.deps.json
+C:\dev\VisualStudioROS\RosCpp\SharpRos\bin\Debug\netcoreapp3.1\SharpRos.runtimeconfig.json
+C:\dev\VisualStudioROS\RosCpp\SharpRos\bin\Debug\netcoreapp3.1\SharpRos.runtimeconfig.dev.json
+C:\dev\VisualStudioROS\RosCpp\SharpRos\bin\Debug\netcoreapp3.1\SharpRos.dll
+C:\dev\VisualStudioROS\RosCpp\SharpRos\bin\Debug\netcoreapp3.1\SharpRos.pdb
+C:\dev\VisualStudioROS\RosCpp\SharpRos\obj\Debug\netcoreapp3.1\SharpRos.AssemblyInfoInputs.cache
+C:\dev\VisualStudioROS\RosCpp\SharpRos\obj\Debug\netcoreapp3.1\SharpRos.AssemblyInfo.cs
+C:\dev\VisualStudioROS\RosCpp\SharpRos\obj\Debug\netcoreapp3.1\SharpRos.csproj.CoreCompileInputs.cache
+C:\dev\VisualStudioROS\RosCpp\SharpRos\obj\Debug\netcoreapp3.1\SharpRos.dll
+C:\dev\VisualStudioROS\RosCpp\SharpRos\obj\Debug\netcoreapp3.1\SharpRos.pdb
+C:\dev\VisualStudioROS\RosCpp\SharpRos\obj\Debug\netcoreapp3.1\SharpRos.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "MFpE76Q0oyqaj56l0bBoGYfB0DR1Vsh107yjzZYQY4NyxC85TFIxPP98pxE4Em7f9sf29GaeJ9vof3XC0qY0OA==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\VisualStudioROS\\RosCpp\\SharpRos\\SharpRos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sally\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sally\\.nuget\\packages\\microsoft.netcore.targets\\1.1.2\\microsoft.netcore.targets.1.1.2.nupkg.sha512",
+    "C:\\Users\\sally\\.nuget\\packages\\system.console\\4.3.1\\system.console.4.3.1.nupkg.sha512",
+    "C:\\Users\\sally\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\sally\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\sally\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\sally\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
