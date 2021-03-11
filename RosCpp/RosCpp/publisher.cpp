@@ -25,7 +25,6 @@ public:
     {
         auto message = std_msgs::msg::String();
         message.data = info;
-        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
         publisher_->publish(message);
     }
 

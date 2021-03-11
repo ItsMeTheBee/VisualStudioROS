@@ -6,7 +6,7 @@ namespace SharpRos
     public static class NativeTest
     {
         private const string test = "TEST!";
-        private const string DllFilePath = @"d:\dev\VisualStudioROS\RosCpp\x64\Release\bin\RosCpp.dll";
+        private const string DllFilePath = @"c:\dev\VisualStudioROS\RosCpp\x64\Release\bin\RosCpp.dll";
 
         [DllImport(DllFilePath, CallingConvention = CallingConvention.Cdecl)]
         private extern static int main(string info);
