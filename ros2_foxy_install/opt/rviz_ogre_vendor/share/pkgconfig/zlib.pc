@@ -1,0 +1,13 @@
+prefix=C:/dev/ros2_foxy_custom/build/rviz_ogre_vendor/zlib-install
+exec_prefix=C:/dev/ros2_foxy_custom/build/rviz_ogre_vendor/zlib-install
+libdir=C:/dev/ros2_foxy_custom/build/rviz_ogre_vendor/zlib-install/lib
+sharedlibdir=C:/dev/ros2_foxy_custom/build/rviz_ogre_vendor/zlib-install/lib
+includedir=C:/dev/ros2_foxy_custom/build/rviz_ogre_vendor/zlib-install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

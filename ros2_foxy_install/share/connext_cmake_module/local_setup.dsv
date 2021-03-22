@@ -1,0 +1,2 @@
+source;share/connext_cmake_module/environment/ament_prefix_path.bat
+source;share/connext_cmake_module/environment/path.bat

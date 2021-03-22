@@ -1,0 +1,4 @@
+source;share/rviz_assimp_vendor/environment/ament_prefix_path.bat
+source;share/rviz_assimp_vendor/environment/path.bat
+source;share/rviz_assimp_vendor/environment/rviz_assimp_vendor_library_path.bat
+source;share/rviz_assimp_vendor/environment/rviz_assimp_vendor_library_path.dsv

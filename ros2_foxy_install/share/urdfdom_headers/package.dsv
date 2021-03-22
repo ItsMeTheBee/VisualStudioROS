@@ -1,0 +1,15 @@
+source;share\urdfdom_headers\hook\cmake_prefix_path.ps1
+source;share\urdfdom_headers\hook\cmake_prefix_path.bat
+source;share\urdfdom_headers\hook\cmake_prefix_path.dsv
+source;share\urdfdom_headers\hook\path_dll.ps1
+source;share\urdfdom_headers\hook\path_dll.bat
+source;share\urdfdom_headers\hook\path_dll.dsv
+source;share\urdfdom_headers\hook\path.ps1
+source;share\urdfdom_headers\hook\path.bat
+source;share\urdfdom_headers\hook\path.dsv
+source;share\urdfdom_headers\hook\path-scripts.ps1
+source;share\urdfdom_headers\hook\path-scripts.bat
+source;share\urdfdom_headers\hook\path-scripts.dsv
+source;share\urdfdom_headers\hook\pythonpath.ps1
+source;share\urdfdom_headers\hook\pythonpath.bat
+source;share\urdfdom_headers\hook\pythonpath.dsv

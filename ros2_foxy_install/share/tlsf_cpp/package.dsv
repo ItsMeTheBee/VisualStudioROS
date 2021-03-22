@@ -1,0 +1,15 @@
+source;share\tlsf_cpp\hook\cmake_prefix_path.ps1
+source;share\tlsf_cpp\hook\cmake_prefix_path.bat
+source;share\tlsf_cpp\hook\cmake_prefix_path.dsv
+source;share\tlsf_cpp\hook\path_dll.ps1
+source;share\tlsf_cpp\hook\path_dll.bat
+source;share\tlsf_cpp\hook\path_dll.dsv
+source;share\tlsf_cpp\hook\path.ps1
+source;share\tlsf_cpp\hook\path.bat
+source;share\tlsf_cpp\hook\path.dsv
+source;share\tlsf_cpp\hook\path-scripts.ps1
+source;share\tlsf_cpp\hook\path-scripts.bat
+source;share\tlsf_cpp\hook\path-scripts.dsv
+source;share\tlsf_cpp\hook\pythonpath.ps1
+source;share\tlsf_cpp\hook\pythonpath.bat
+source;share\tlsf_cpp\hook\pythonpath.dsv

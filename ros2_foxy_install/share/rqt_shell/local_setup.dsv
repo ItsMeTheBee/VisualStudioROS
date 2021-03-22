@@ -1,0 +1,3 @@
+source;share/rqt_shell/environment/ament_prefix_path.bat
+source;share/rqt_shell/environment/path.bat
+source;share/rqt_shell/environment/pythonpath.bat

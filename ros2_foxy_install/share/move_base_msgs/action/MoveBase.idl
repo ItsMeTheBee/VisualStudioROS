@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from move_base_msgs/action\MoveBase.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module move_base_msgs {
+  module action {
+    struct MoveBase_Goal {
+      geometry_msgs::msg::PoseStamped target_pose;
+    };
+    struct MoveBase_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct MoveBase_Feedback {
+      geometry_msgs::msg::PoseStamped base_position;
+    };
+  };
+};

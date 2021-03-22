@@ -1,0 +1,11 @@
+prefix=C:/dev/ros2_foxy_custom/build/rviz_assimp_vendor/assimp_install
+exec_prefix=C:/dev/ros2_foxy_custom/build/rviz_assimp_vendor/assimp_install/
+libdir=C:/dev/ros2_foxy_custom/build/rviz_assimp_vendor/assimp_install/lib
+includedir=C:/dev/ros2_foxy_custom/build/rviz_assimp_vendor/assimp_install/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 4.1.0
+Libs: -L${libdir} -lassimp
+Libs.private:  -lz
+Cflags: -I${includedir}

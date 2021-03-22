@@ -1,0 +1,11 @@
+prefix=C:/dev/ros2_foxy_custom/install
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: orocos-kdl
+Description: The Orocos Kinematics and Dynamics Library 
+Requires: 
+Version: 1.4.0
+Libs: -L${libdir} -lorocos-kdl
+Cflags: -I${includedir}  -IC:/ProgramData/chocolatey/lib/eigen/include
+
