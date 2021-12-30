@@ -1,1 +1,0 @@
-geometry_msgs;libqt5-core;libqt5-gui;libqt5-opengl;libqt5-widgets;message_filters;pluginlib;qtbase5-dev;rclcpp;resource_retriever;rviz_assimp_vendor;rviz_ogre_vendor;rviz_rendering;sensor_msgs;std_msgs;tf2;tf2_geometry_msgs;tf2_ros;tinyxml_vendor;urdf;yaml_cpp_vendor

@@ -1,0 +1,183 @@
+﻿  publisher.cpp
+  node.cpp
+C:\dev\VisualStudioROS\RosCpp\RosCpp\node.cpp(35,20): warning C4244: '=': conversion from 'const double' to 'std_msgs::msg::Float32_<std::allocator<void>>::_data_type', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(714,47): warning C4244: 'initializing': conversion from 'const double' to '_Objty', possible loss of data
+          with
+          [
+              _Objty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1610): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const double&>(_Alloc &,_Objty *const ,const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1611): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const double&>(_Alloc &,_Objty *const ,const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1651): message : see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<const double&>(const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1651): message : see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<const double&>(const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(1654): message : see reference to function template instantiation 'float *std::_Uninitialized_copy<_Iter,std::allocator<float>>(const _InIt,const _InIt,float *,_Alloc &)' being compiled
+          with
+          [
+              _Iter=const double [],
+              _InIt=const double [],
+              _Alloc=std::allocator<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(530): message : see reference to function template instantiation 'float *std::vector<float,std::allocator<float>>::_Ucopy<_Iter>(_Iter,_Iter,float *)' being compiled
+          with
+          [
+              _Iter=const double []
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(530): message : see reference to function template instantiation 'float *std::vector<float,std::allocator<float>>::_Ucopy<_Iter>(_Iter,_Iter,float *)' being compiled
+          with
+          [
+              _Iter=const double []
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(542): message : see reference to function template instantiation 'void std::vector<float,std::allocator<float>>::_Range_construct_or_tidy<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=const double []
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(542): message : see reference to function template instantiation 'void std::vector<float,std::allocator<float>>::_Range_construct_or_tidy<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=const double []
+          ]
+C:\dev\VisualStudioROS\RosCpp\RosCpp\node.cpp(68): message : see reference to function template instantiation 'std::vector<float,std::allocator<float>>::vector<const double[],0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=const double [],
+              _Alloc=std::allocator<float>
+          ]
+C:\dev\VisualStudioROS\RosCpp\RosCpp\node.cpp(68): message : see reference to function template instantiation 'std::vector<float,std::allocator<float>>::vector<const double[],0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=const double [],
+              _Alloc=std::allocator<float>
+          ]
+  subscriber.cpp
+  wrapper.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(2575,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(2586): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(2586): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(2566): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(2566): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\dev\VisualStudioROS\RosCpp\RosCpp\wrapper.cpp(21): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\dev\VisualStudioROS\RosCpp\RosCpp\wrapper.cpp(21): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+     Creating library C:\dev\VisualStudioROS\RosCpp\Release\bin\RosCpp.lib and object C:\dev\VisualStudioROS\RosCpp\Release\bin\RosCpp.exp
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_logging_initialize
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_get_error_string
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_publish
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_get_zero_initialized_event
+publisher.obj : error LNK2001: unresolved external symbol __imp__g_rcutils_logging_initialized
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_publisher_get_default_options
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_log
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_publisher_get_context
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_reset_error
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_get_default_allocator
+publisher.obj : error LNK2001: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::String_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$String_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPBUrosidl_message_type_support_t@@XZ)
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_publisher_is_valid_except_context
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum rcl_clock_type_t __thiscall rclcpp::Clock::get_clock_type(void)const " (__imp_?get_clock_type@Clock@rclcpp@@QBE?AW4rcl_clock_type_t@@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::Clock::~Clock(void)" (__imp_??1Clock@rclcpp@@QAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::Clock::Clock(enum rcl_clock_type_t)" (__imp_??0Clock@rclcpp@@QAE@W4rcl_clock_type_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::InitOptions::~InitOptions(void)" (__imp_??1InitOptions@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::InitOptions::InitOptions(struct rcutils_allocator_t)" (__imp_??0InitOptions@rclcpp@@QAE@Urcutils_allocator_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned __int64 __thiscall rclcpp::experimental::IntraProcessManager::add_publisher(class std::shared_ptr<class rclcpp::PublisherBase>)" (__imp_?add_publisher@IntraProcessManager@experimental@rclcpp@@QAE_KV?$shared_ptr@VPublisherBase@rclcpp@@@std@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::experimental::IntraProcessManager::IntraProcessManager(void)" (__imp_??0IntraProcessManager@experimental@rclcpp@@QAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::Waitable::get_number_of_ready_guard_conditions(void)" (__imp_?get_number_of_ready_guard_conditions@Waitable@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::Waitable::get_number_of_ready_services(void)" (__imp_?get_number_of_ready_services@Waitable@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::Waitable::get_number_of_ready_events(void)" (__imp_?get_number_of_ready_events@Waitable@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::Waitable::get_number_of_ready_clients(void)" (__imp_?get_number_of_ready_clients@Waitable@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::Waitable::get_number_of_ready_timers(void)" (__imp_?get_number_of_ready_timers@Waitable@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::Waitable::get_number_of_ready_subscriptions(void)" (__imp_?get_number_of_ready_subscriptions@Waitable@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) class rclcpp::Logger __cdecl rclcpp::get_logger(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?get_logger@rclcpp@@YA?AVLogger@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl rclcpp::init(int,char const * const * const,class rclcpp::InitOptions const &)" (__imp_?init@rclcpp@@YAXHQBQBDABVInitOptions@1@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct rmw_qos_profile_t const & __thiscall rclcpp::QoS::get_rmw_qos_profile(void)const " (__imp_?get_rmw_qos_profile@QoS@rclcpp@@QBEABUrmw_qos_profile_t@@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::QoS::QoS(unsigned int)" (__imp_??0QoS@rclcpp@@QAE@I@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall rclcpp::Node::get_sub_namespace(void)const " (__imp_?get_sub_namespace@Node@rclcpp@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::shared_ptr<class rclcpp::node_interfaces::NodeTopicsInterface> __thiscall rclcpp::Node::get_node_topics_interface(void)" (__imp_?get_node_topics_interface@Node@rclcpp@@QAE?AV?$shared_ptr@VNodeTopicsInterface@node_interfaces@rclcpp@@@std@@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class rclcpp::Logger __thiscall rclcpp::Node::get_logger(void)const " (__imp_?get_logger@Node@rclcpp@@QBE?AVLogger@2@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::Node::~Node(void)" (__imp_??1Node@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::Node::Node(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class rclcpp::NodeOptions const &)" (__imp_??0Node@rclcpp@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVNodeOptions@1@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl rclcpp::exceptions::throw_from_rcl_error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct rcutils_error_state_t const *,void (__cdecl*)(void))" (__imp_?throw_from_rcl_error@exceptions@rclcpp@@YAXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBUrcutils_error_state_t@@P6AXXZ@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual bool __thiscall rclcpp::QOSEventHandlerBase::is_ready(struct rcl_wait_set_t *)" (__imp_?is_ready@QOSEventHandlerBase@rclcpp@@UAE_NPAUrcl_wait_set_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual bool __thiscall rclcpp::QOSEventHandlerBase::add_to_wait_set(struct rcl_wait_set_t *)" (__imp_?add_to_wait_set@QOSEventHandlerBase@rclcpp@@UAE_NPAUrcl_wait_set_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall rclcpp::QOSEventHandlerBase::get_number_of_ready_events(void)" (__imp_?get_number_of_ready_events@QOSEventHandlerBase@rclcpp@@UAEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::QOSEventHandlerBase::~QOSEventHandlerBase(void)" (__imp_??1QOSEventHandlerBase@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: void __thiscall rclcpp::PublisherBase::default_incompatible_qos_callback(struct rmw_qos_incompatible_event_status_t &)const " (__imp_?default_incompatible_qos_callback@PublisherBase@rclcpp@@IBEXAAUrmw_qos_incompatible_event_status_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall rclcpp::PublisherBase::setup_intra_process(unsigned __int64,class std::shared_ptr<class rclcpp::experimental::IntraProcessManager>)" (__imp_?setup_intra_process@PublisherBase@rclcpp@@QAEX_KV?$shared_ptr@VIntraProcessManager@experimental@rclcpp@@@std@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned int __thiscall rclcpp::PublisherBase::get_intra_process_subscription_count(void)const " (__imp_?get_intra_process_subscription_count@PublisherBase@rclcpp@@QBEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned int __thiscall rclcpp::PublisherBase::get_subscription_count(void)const " (__imp_?get_subscription_count@PublisherBase@rclcpp@@QBEIXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::PublisherBase::~PublisherBase(void)" (__imp_??1PublisherBase@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::PublisherBase::PublisherBase(class rclcpp::node_interfaces::NodeBaseInterface *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct rosidl_message_type_support_t const &,struct rcl_publisher_options_t const &)" (__imp_??0PublisherBase@rclcpp@@QAE@PAVNodeBaseInterface@node_interfaces@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABUrosidl_message_type_support_t@@ABUrcl_publisher_options_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl rclcpp::spin(class std::shared_ptr<class rclcpp::Node>)" (__imp_?spin@rclcpp@@YAXV?$shared_ptr@VNode@rclcpp@@@std@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::UnsupportedEventTypeException::UnsupportedEventTypeException(int,struct rcutils_error_state_t const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0UnsupportedEventTypeException@rclcpp@@QAE@HPBUrcutils_error_state_t@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::NodeOptions::NodeOptions(struct rcutils_allocator_t)" (__imp_??0NodeOptions@rclcpp@@QAE@Urcutils_allocator_t@@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall rclcpp::TimerBase::cancel(void)" (__imp_?cancel@TimerBase@rclcpp@@QAEXXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::TimerBase::~TimerBase(void)" (__imp_??1TimerBase@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall rclcpp::TimerBase::TimerBase(class std::shared_ptr<class rclcpp::Clock>,class std::chrono::duration<__int64,struct std::ratio<1,1000000000> >,class std::shared_ptr<class rclcpp::Context>)" (__imp_??0TimerBase@rclcpp@@QAE@V?$shared_ptr@VClock@rclcpp@@@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@3@V?$shared_ptr@VContext@rclcpp@@@3@@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall rclcpp::detail::RMWImplementationSpecificPayload::has_been_customized(void)const " (__imp_?has_been_customized@RMWImplementationSpecificPayload@detail@rclcpp@@QBE_NXZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl rclcpp::get_c_string(char const *)" (__imp_?get_c_string@rclcpp@@YAPBDPBD@Z)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) bool __cdecl rclcpp::shutdown(class std::shared_ptr<class rclcpp::Context>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?shutdown@rclcpp@@YA_NV?$shared_ptr@VContext@rclcpp@@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z)
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_context_is_valid
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_get_error_state
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_publisher_event_init
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcutils_logging_logger_is_enabled_for
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_take_event
+publisher.obj : error LNK2001: unresolved external symbol __imp__rcl_timer_call
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::NodeOptions::~NodeOptions(void)" (__imp_??1NodeOptions@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall rclcpp::Waitable::~Waitable(void)" (__imp_??1Waitable@rclcpp@@UAE@XZ)
+publisher.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char const * __thiscall rclcpp::Logger::get_name(void)const " (__imp_?get_name@Logger@rclcpp@@QBEPBDXZ)
+node.obj : error LNK2001: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::Int16_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$Int16_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPBUrosidl_message_type_support_t@@XZ)
+node.obj : error LNK2001: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::Float32_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$Float32_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPBUrosidl_message_type_support_t@@XZ)
+node.obj : error LNK2001: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::Float64_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$Float64_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPBUrosidl_message_type_support_t@@XZ)
+node.obj : error LNK2001: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::Int16MultiArray_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$Int16MultiArray_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPBUrosidl_message_type_support_t@@XZ)
+node.obj : error LNK2001: unresolved external symbol "struct rosidl_message_type_support_t const * __cdecl rosidl_typesupport_cpp::get_message_type_support_handle<struct std_msgs::msg::Float32MultiArray_<class std::allocator<void> > >(void)" (??$get_message_type_support_handle@U?$Float32MultiArray_@V?$allocator@X@std@@@msg@std_msgs@@@rosidl_typesupport_cpp@@YAPBUrosidl_message_type_support_t@@XZ)
+node.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) bool __cdecl rclcpp::sleep_for(class std::chrono::duration<__int64,struct std::ratio<1,1000000000> > const &,class std::shared_ptr<class rclcpp::Context>)" (__imp_?sleep_for@rclcpp@@YA_NABV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@V?$shared_ptr@VContext@rclcpp@@@4@@Z)
+C:\dev\VisualStudioROS\RosCpp\Release\bin\RosCpp.dll : fatal error LNK1120: 69 unresolved externals

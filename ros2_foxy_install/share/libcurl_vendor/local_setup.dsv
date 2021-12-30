@@ -1,4 +1,0 @@
-source;share/libcurl_vendor/environment/ament_prefix_path.bat
-source;share/libcurl_vendor/environment/libcurl_vendor_library_path.bat
-source;share/libcurl_vendor/environment/path.bat
-source;share/libcurl_vendor/environment/libcurl_vendor_library_path.dsv

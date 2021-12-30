@@ -1,3 +1,0 @@
-[ros2cli.command]
-test = ros2test.command.test:TestCommand
-

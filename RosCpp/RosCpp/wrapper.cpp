@@ -2,87 +2,72 @@
 
 #include "wrapper.h"
 
-void init()
+void Init()
 {
     rclcpp::init(0, nullptr);
 }
 
-NxRos* CreateNxRos()
+SampleNode* CreateSampleNode()
 {
-    return new NxRos();
+    return  new SampleNode();
 }
 
-void DisposeNxRos(NxRos* p_NxRos)
+
+void PublishString(SampleNode* p_node, const wchar_t* info)
 {
-    if (p_NxRos != NULL)
+    if (p_node != NULL)
     {
-        delete p_NxRos;
-        p_NxRos = NULL;
+        std::wstring ws(info);
+        std::string string_info(ws.begin(), ws.end());
+        p_node->publishString(string_info);
     }
 }
 
-void PublishString(NxRos* p_NxRos, const wchar_t* info)
+void PublishInt(SampleNode* p_node, const int info)
 {
-    if (p_NxRos != NULL)
+    if (p_node != NULL)
     {
-        p_NxRos->publishString(info);
+        p_node->publishInt(info);
     }
 }
 
-void PublishInt(NxRos* p_NxRos, const int info)
+void PublishDouble(SampleNode* p_node, const double info)
 {
-    if (p_NxRos != NULL)
+    if (p_node != NULL)
     {
-        p_NxRos->publishInt(info);
+        p_node->publishDouble(info);
     }
 }
 
-void PublishDouble(NxRos* p_NxRos, const double info)
+void PublishFloat(SampleNode* p_node, const float info)
 {
-    if (p_NxRos != NULL)
+    if (p_node != NULL)
     {
-        p_NxRos->publishDouble(info);
+        p_node->publishFloat(info);
     }
 }
 
-void PublishFloat(NxRos* p_NxRos, const float info)
+void PublishIntArray(SampleNode* p_node, const int info[], const int size)
 {
-    if (p_NxRos != NULL)
+
+    if (p_node != NULL)
     {
-        p_NxRos->publishFloat(info);
+        p_node->publishIntArray(info, size);
     }
 }
 
-void PublishIntArray(NxRos* p_NxRos, const int info[], const int size)
+void PublishDoubleArray(SampleNode* p_node, const double info[], const int size)
 {
-
-    if (p_NxRos != NULL)
+    if (p_node != NULL)
     {
-        p_NxRos->publishIntArray(info, size);
+        p_node->publishDoubleArray(info, size);
     }
 }
 
-void PublishDoubleArray(NxRos* p_NxRos, const double info[], const int size)
+void PublishFloatArray(SampleNode* p_node, const float info[], const int size)
 {
-    if (p_NxRos != NULL)
+    if (p_node != NULL)
     {
-        p_NxRos->publishDoubleArray(info, size);
+        p_node->publishFloatArray(info, size);
     }
 }
-
-void PublishFloatArray(NxRos* p_NxRos, const float info[], const int size)
-{
-    if (p_NxRos != NULL)
-    {
-        p_NxRos->publishFloatArray(info, size);
-    }
-}
-
-void PublishLaserScan(NxRos* p_NxRos, float min_angle, float max_angle, float angle_increment, float time_increment, float scan_time, float range_min, float range_max, float ranges[], int range_size, float intensities[], int intensity_size)
-{
-    if (p_NxRos != NULL)
-    {
-        p_NxRos->publishLaserScan(min_angle, max_angle, angle_increment, time_increment, scan_time, range_min, range_max, ranges, range_size, intensities, intensity_size);
-    }
-}
-

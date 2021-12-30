@@ -1,3 +1,0 @@
-source;share/lifecycle_msgs/environment/ament_prefix_path.bat
-source;share/lifecycle_msgs/environment/path.bat
-source;share/lifecycle_msgs/environment/pythonpath.bat

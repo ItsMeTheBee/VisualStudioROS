@@ -1,3 +1,0 @@
-source;share/rqt_service_caller/environment/ament_prefix_path.bat
-source;share/rqt_service_caller/environment/path.bat
-source;share/rqt_service_caller/environment/pythonpath.bat

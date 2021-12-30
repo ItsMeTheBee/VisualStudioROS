@@ -1,0 +1,13 @@
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\bin\Debug\netcoreapp3.1\RosFromCSharp.exe
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\bin\Debug\netcoreapp3.1\RosFromCSharp.deps.json
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\bin\Debug\netcoreapp3.1\RosFromCSharp.runtimeconfig.json
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\bin\Debug\netcoreapp3.1\RosFromCSharp.runtimeconfig.dev.json
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\bin\Debug\netcoreapp3.1\RosFromCSharp.dll
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\bin\Debug\netcoreapp3.1\RosFromCSharp.pdb
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.csproj.AssemblyReference.cache
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.AssemblyInfoInputs.cache
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.AssemblyInfo.cs
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.csproj.CoreCompileInputs.cache
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.dll
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.pdb
+C:\dev\VisualStudioROS\RosCpp\RosFromCSharp\obj\Debug\netcoreapp3.1\RosFromCSharp.genruntimeconfig.cache

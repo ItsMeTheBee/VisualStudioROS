@@ -1,1 +1,0 @@
-geometry_msgs;interactive_markers;laser_geometry;libqt5-core;libqt5-gui;libqt5-opengl;libqt5-widgets;map_msgs;nav_msgs;pluginlib;rclcpp;resource_retriever;rviz_common;rviz_ogre_vendor;rviz_rendering;tf2;tf2_geometry_msgs;tf2_ros;tinyxml_vendor;urdf;visualization_msgs
